@@ -14,6 +14,8 @@ namespace FindMaxGeneric
             Console.WriteLine(max);
             float floatmax = FindMaximum.FindfloatMax(256.23f, 388.23f, 422.25f);
             Console.WriteLine(floatmax);
+            string stringMax = FindMaximum.FindStringMax("Apple", "Peach", "Banana");
+            Console.WriteLine(stringMax);
         }
     }
 }
