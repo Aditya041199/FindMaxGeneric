@@ -12,7 +12,7 @@ namespace FindMaxGeneric
         {
             int max = FindMaximum.FindIntMax(100, 500, 1000);
             Console.WriteLine(max);
-            float floatmax = FindMaximum.FindfloatMax(256.23f, 422.25f, 388.23f);
+            float floatmax = FindMaximum.FindfloatMax(256.23f, 388.23f, 422.25f);
             Console.WriteLine(floatmax);
         }
     }
