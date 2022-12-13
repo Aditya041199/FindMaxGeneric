@@ -10,7 +10,7 @@ namespace FindMaxGeneric
     {
             static void Main(string[] args)
             {
-                int max = FindMaximum.FindIntMax(1000, 100, 500);
+                int max = FindMaximum.FindIntMax(100, 1000, 500);
                 Console.WriteLine(max);
             }
     }
