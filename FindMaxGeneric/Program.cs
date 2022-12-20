@@ -10,11 +10,11 @@ namespace FindMaxGeneric
     {
         static void Main(string[] args)
         {
-            int max = FindMaximum.FindIntMax(100, 500, 1000);
+            int max = FindMaximum.FindMaximumNumber<int>(100, 500, 1000);
             Console.WriteLine(max);
-            float floatmax = FindMaximum.FindfloatMax(256.23f, 388.23f, 422.25f);
+            float floatmax = FindMaximum.FindMaximumNumber<float>(256.23f, 388.23f, 422.25f);
             Console.WriteLine(floatmax);
-            string stringMax = FindMaximum.FindStringMax("Apple", "Peach", "Banana");
+            string stringMax = FindMaximum.FindMaximumNumber<string>("Apple", "Peach", "Banana");
             Console.WriteLine(stringMax);
         }
     }
